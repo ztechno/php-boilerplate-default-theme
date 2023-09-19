@@ -24,6 +24,7 @@
 .sidebar-default {
     height: 100vh;
     font-size: 14px;
+    z-index: 1234;
 }
 
 .sidebar-default .nav-sidebar {
@@ -135,6 +136,7 @@
 
 .sidebar-default.minimize {
     width: 68px;
+    overflow: hidden;
 }
 
 .sidebar-default.minimize .nav-sidebar {
@@ -178,7 +180,7 @@
 }
 
 .sidebar-default.minimize:hover ~ .content-wrapper .navbar-default {
-    margin-left: 182px;
+    margin-left: 212px
 }
 .sidebar-default.minimize:hover ~ .content-wrapper{
     width: calc(100% - 68px);
