@@ -35,8 +35,8 @@
                     <img class="rounded-circle" src="<?=asset('theme/assets/img/user-placeholder.jpg')?>" alt="" width="38" height="38">
                 </a>
                 <ul class="dropdown-menu" style="right:0;left:inherit">
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                    <li><a class="dropdown-item" href="<?=routeTo('default/profile')?>">Profile</a></li>
+                    <li><a class="dropdown-item" href="<?=routeTo('auth/logout')?>">Log Out</a></li>
                 </ul>
             </div>
         </div>
